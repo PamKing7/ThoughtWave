@@ -68,7 +68,7 @@
 
 
 
-*Please refer to Appendix A.3 for detailed information and sample.*
+*Please refer to Appendix **A.3** for detailed information and sample.*
 
 ## Structure
 
