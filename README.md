@@ -38,7 +38,7 @@
 
 ​	*Evidence 1: {**Looking at the demand side, China's consumer market continues to recover, with significant advantages in the super-large-scale market. It continuously meets people's online shopping needs for clothing, food, housing, and transportation, thereby transforming into strong momentum for the express delivery industry. On the supply side, the construction of urban and rural express delivery infrastructure continues to improve, reducing regional disparities, making it more convenient for consumer goods to reach villages and agricultural products to enter cities. These favorable factors not only drive the continuous expansion of the express delivery industry but also signify a more active market with a warm atmosphere of development, adding vivid annotations to China's stable and improving economy.**}*
 
-
+<br>
 
 ## 5-Step Generation Prompt
 
@@ -66,9 +66,17 @@
 
 *You are a commentary writing expert. Please write a title for the article and provide insightful summaries. You should use your experience to thoughtfully summarize important matters, support claims with facts, and distill the essence of the text. The preceding text is as follows: {**preceding text**}. Please provide the title:*
 
-
+<br>
 
 *Please refer to Appendix **A.3** for detailed information and sample.*
+
+<br>
+
+## Score Prompt
+
+Please refer to the detailed scoring prompts for each dimension in <a href='./README - score.md'>the Scoring Prompt</a>.
+
+<br>
 
 ## Structure
 
