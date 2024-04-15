@@ -1,38 +1,66 @@
 # ThoughtWave
 
+<p align="center">English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='./README - ch.md'>简体中文</a></p>
+
+*Commentary, as a form of news and opinion, typically adhere to a certain fixed paradigm, which sets them apart from other types of articles. In contrast, commentary articles usually follow the following structure: introduction, main argument, supporting arguments, evidence, and ending.*
+
+
+
 ## Single Prompt
 
-我将给你一段背景新闻：
+*I will provide you with a news background:*
 
-​	**{新闻背景}**
+​	*{**Event detail**}*
 
-你创作的文章应参考以下的论点和论据：
+*Based on this news, with the title '{**Title**}', please create a commentary article. The article should have clear and profound arguments, true and abundant evidence, smooth logical reasoning, reasonable structure, and appropriate commentary language. Your article should reference the following argument and evidence:*
 
-​	论点1:**{论点1}**
+​	*Argument 1: {**Argument 1**}*
 
-​	论据1:**{论据1}**
+​	*Evidence 1: {**Evidence 1**}*
 
-​	论点2:**{论点2}**
+​	*Argument 2: {**Argument 2**}*
 
-​	论据2:**{论据2}**
+​	*Evidence 2: {**Evidence 2**}*
 
-​	论点3:**{论点3}**
+​	*Argument 3: {**Argument 3**}*
 
-​	论据3:**{论据3}**
+​	*Evidence 3: {**Evidence 3**}*
 
-### 示例
+### Sample
 
-我将给你一段背景新闻：
+*I will provide you with a news background:*
 
-​	10月23日上午7时39分，随着一件网购羽绒服从青岛发出，国家邮政局快递大数据平台实时监测数据显示，今年我国第1000亿件快件产生，比去年达到千亿件提前了39天。请你根据这段新闻，以“快递‘小包裹’，映照经济‘大棋盘’”为标题，创作一篇800字的新华社风格的评论文章，应当做到论点清晰深刻、论据真实丰富、论证逻辑顺畅、文章结构合理、评论语言得体。
+​	*{**On the morning of October 23rd at 7:39 AM, as a down jacket purchased online was dispatched from Qingdao, the National Postal Service's express delivery big data platform showed real-time monitoring data indicating that the 100 billionth express delivery of this year in China was generated, 39 days earlier than last year.**}*
 
-你创作的文章应参考以下的论点和论据：
+*Based on this news, with the title '{**"Express 'small packages' reflect the economic 'big chessboard'."**}', please create a commentary article. The article should have clear and profound arguments, true and abundant evidence, smooth logical reasoning, reasonable structure, and appropriate commentary language. Your article should reference the following argument and evidence:*
 
-​	论点1:快递量高速增长，是供需市场双向发力的结果。
+​	*Argument 1: {**"The rapid growth in express delivery volume is the result of a dual push from supply and demand in the market."**}*
 
-​	论据1:看需求侧，我国消费市场不断复苏，超大规模市场优势显著，不断满足人们衣食住行的线上购物需求，化为快递行业的强劲动能。看供给侧，城乡快递基础设施建设不断完善，区域差异性缩小，使得消费品下乡进村、农产品出村进城更为便捷畅通。这些有利因素，在带动快递行业规模持续扩大的同时，也意味着市场更加活跃、发展暖意十足，为稳中向好的中国经济写下生动注脚。请直接输出文章，不要输出其他东西。",
+​	*Evidence 1: {**Looking at the demand side, China's consumer market continues to recover, with significant advantages in the super-large-scale market. It continuously meets people's online shopping needs for clothing, food, housing, and transportation, thereby transforming into strong momentum for the express delivery industry. On the supply side, the construction of urban and rural express delivery infrastructure continues to improve, reducing regional disparities, making it more convenient for consumer goods to reach villages and agricultural products to enter cities. These favorable factors not only drive the continuous expansion of the express delivery industry but also signify a more active market with a warm atmosphere of development, adding vivid annotations to China's stable and improving economy.**}*
 
 
 
 ## 5-Step Generation Prompt
+
+*Please refer to Appendix **A.3** for detailed information.*
+
+
+
+*The project structure is as follows:*
+
+```
+ThoughtWave
+    ├─5_step_generation_prompt	--	5-Step inference and scoring files, corresponding to Table 3
+    │  ├─Baichuan2-Turbo
+    │  ├─GPT-4
+    │  ├─Qwen-72B-Chat
+    │  └─kdd_task_data_sample.json	--	5-Step Sample
+    └─single_prompt	--	Single inference and scoring files, corresponding to Table 2
+        ├─Baichuan2-Turbo
+        ├─ERNIE-4
+        ├─GLM-4
+        ├─GPT-3.5-Turbo
+        ├─GPT-4
+        └─Qwen-72B
+```
 
