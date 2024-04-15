@@ -2,11 +2,11 @@
 
 <p align="center">English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='./README - ch.md'>简体中文</a></p>
 
-​	*Commentary, as a form of news and opinion, typically adhere to a certain fixed paradigm, which sets them apart from other types of articles. In contrast, commentary articles usually follow the following structure: introduction, main argument, supporting arguments, evidence, and ending.*
+​	*Commentary, particularly within journalism, is characterized by a specific structural paradigm that sets it apart from other types of essays. This is especially true in China, where a typical commentary follows a well-defined format comprising a title, a review of the peg (or gist), a main argument, several supporting arguments with evidence, and a conclusion. This structure ensures that commentaries are distinct and adhere to established journalistic standards.*
 
 
 
-## Single Prompt
+## Singe-Step Prompt (Table 2)
 
 *I will provide you with a news background:*
 
@@ -40,7 +40,7 @@
 
 <br>
 
-## 5-Step Generation Prompt
+## 5-Step Prompt(Table 3)
 
 ### Peg Generation
 
@@ -72,7 +72,7 @@
 
 <br>
 
-## Score Prompt
+## Prompt for Evaluation
 
 Please refer to the detailed scoring prompts for each dimension in <a href='./README - score.md'>the Scoring Prompt</a>.
 

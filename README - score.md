@@ -144,18 +144,29 @@ Assistant: *{**Model response**}*
 
 ## Evidence
 
-Assuming you are an article reviewer, please help me assess the sufficiency of ***evidence*** in the given article. The specific deduction rules are as follows:
+I want you to serve as an expert in news commentary writing, and I will provide you with a news commentary writing prompt and a response from a news journalism student. Please evaluate the student's response based solely on the ***evidence*** perspective. You should note that a news commentary article consists of main points and sub-points. The introduction of the article outlines the main point, followed by multiple sub-points that revolve around the main point and are supported by evidence. Evidence refers to facts and related materials used to clarify points, with factual evidence requiring high timeliness and authenticity, and related materials needing to be representative, persuasive, and relevant. The scoring criteria are as follows:
 
-​	1.Concrete data or examples: Consider whether each piece of evidence in the article contains specific data or real-life examples. Deduct 1-2 points for each instance of empty talk or general statements, depending on the specific context.
+A score of 10 represents abundant evidence, with each sub-point being effectively supported by evidence. Factual evidence is true, valid, highly timely, and related materials are representative, classic, and sufficient.
 
-​	2.Unsupported claims: A proper article review should have well-supported arguments and a rich discourse process to substantiate each point. Consider the number of unsupported claims in the review article, deducting 1.0 point for each such claim.
+A score of 8 indicates relatively sufficient evidence, with most sub-points having effective evidence support. Factual evidence is true, valid, and highly timely, while related materials are applicable, accurate, but there is room for improvement.
 
-​	3.Supportiveness of evidence: Consider whether the evidence in the article supports the claims. Deduct 1 point if it does not.
+A score of 6 suggests relatively simple evidence, with over half of the sub-points lacking effective evidence support. Most factual evidence is true, with average timeliness, but related materials are insufficient and there is considerable room for improvement.
 
-For example, for the following article: *{**Example article**}*
-The identified problems: *{**Example scoring response**}*
+A score of 4 indicates a lack of evidence, with most sub-points lacking effective evidence support and containing many empty talk or general statements. Some factual evidence is untrue or inconsistent with facts, lacking reliability, and related materials are too few, needing enrichment and optimization.
 
-Please strictly adhere to the scoring rules and deduct points according to the provided example, expressing the final score in a JSON format resolvable by Python. One field should be "identified problems," listing the issues as a list, another field should be "deduction score," and the third field should be "calculation process." Avoid providing any statements outside of the JSON format. The article is as follows: *{**Model response**}*
+A score of 0 represents insufficient evidence, with little to no effective evidence to support the argument. Most of the content consists of empty talk or general statements, and the factual evidence presented is mostly untrue or contradictory to facts. There are very few related materials, lacking specificity and suitability.
+
+You need to utilize your experience to consider how to score the response that best fits the criteria and descriptions.
+
+<br>
+
+Title: *{**Prompt**}*
+
+The student's response is: *{**Model answer**}*
+
+Please evaluate the student's article based solely on the ***evidence*** perspective. According to the scoring criteria provided above, you need to provide a score between 0 and 10, where a higher score indicates better quality of the student's writing.
+
+Please output your scoring results and scoring reasons in JSON format. The output template is: {"score\":"xx\","reason\":"xx\"}, where score represents your scoring score and reason represents your scoring reason. Please provide a comprehensive explanation of your scoring results in reason to avoid any potential bias.
 
 <br>
 
