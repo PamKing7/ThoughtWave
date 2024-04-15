@@ -2,7 +2,7 @@
 
 <p align="center">English&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='./README - ch.md'>简体中文</a></p>
 
-*Commentary, as a form of news and opinion, typically adhere to a certain fixed paradigm, which sets them apart from other types of articles. In contrast, commentary articles usually follow the following structure: introduction, main argument, supporting arguments, evidence, and ending.*
+​	*Commentary, as a form of news and opinion, typically adhere to a certain fixed paradigm, which sets them apart from other types of articles. In contrast, commentary articles usually follow the following structure: introduction, main argument, supporting arguments, evidence, and ending.*
 
 
 
@@ -45,6 +45,8 @@
 *Please refer to Appendix **A.3** for detailed information.*
 
 
+
+## Structure
 
 *The project structure is as follows:*
 

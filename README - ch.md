@@ -1,8 +1,8 @@
 # ThoughtWave
 
-<p align="center"><a href='./READM.md'>English</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简体中文</p>
+<p align="center"><a href='./README.md'>English</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简体中文</p>
 
-评论文章，作为新闻与意见的一种形式，通常有一定的固定范式，这一点和其他类型的文章是有区别的。相比之下，评论文章则通常遵循以下结构：评论由头、总论点、分论点、论据和结论。
+​	评论文章，作为新闻与意见的一种形式，通常有一定的固定范式，这一点和其他类型的文章是有区别的。相比之下，评论文章则通常遵循以下结构：评论由头、总论点、分论点、论据和结论。
 
 
 
@@ -45,6 +45,8 @@
 详细信息请参考文章附录**A.3**
 
 
+
+## Structure
 
 项目结构如下：
 
