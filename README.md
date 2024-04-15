@@ -42,9 +42,33 @@
 
 ## 5-Step Generation Prompt
 
-*Please refer to Appendix **A.3** for detailed information.*
+### Peg Generation
+
+*You are a commentary writing expert, and here are the details of an event. Event detail: {**event detail**}. Please refine it into a concise and well-articulated peg:*
+
+### Main Argument Generation
+
+ *You are a commentary writing expert. Please complete the main argument in the direction of {**direction**} based on the peg: {**peg**} and event detail: {**event detail**}. The main argument should be profound, concise, and strongly related to the peg. Please provide the main argument:*
+
+### Supporting Argument Generation
+
+*You are a commentary writing expert. Based on the given main argument {**main argument**} of the commentary and event detail {**event detail**}, generate multiple supporting arguments for the commentary. The supporting arguments form {**structure**} structure, refining around the {**main argument**} with multi-level, multifaceted, and multi-angle perspectives. Please provide the supporting arguments:*
+
+### Evidence Generation
+
+*You are a commentary writing expert. Surrounding the main argument {**main argument**}, please use the evidence provided in the reference information,including dates, data, viewpoints, core content, etc., to continue writing evidence in the commentary to support the supporting argument {**supporting argument**}. Please annotate the corresponding reference information numbers in the continuation. Reference information: {**reference**}. Please provide the evidence:*
+
+### Ending Generation
+
+*You are a commentary writing expert. Please write a title for the article and provide insightful summaries. You should use your experience to thoughtfully summarize important matters, support claims with facts, and distill the essence of the text. The preceding text is as follows: {**preceding text**}. Please provide the title:*
+
+### Title Generation
+
+*You are a commentary writing expert. Please write a title for the article and provide insightful summaries. You should use your experience to thoughtfully summarize important matters, support claims with facts, and distill the essence of the text. The preceding text is as follows: {**preceding text**}. Please provide the title:*
 
 
+
+*Please refer to Appendix A.3 for detailed information and sample.*
 
 ## Structure
 
